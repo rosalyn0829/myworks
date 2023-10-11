@@ -1,0 +1,10 @@
+// 要下載live sass compiler
+// 按頁面底下的 眼睛watch sass 就會編成瀏覽器看得懂的css
+// 按下去之後會編譯成all.css以及all.css.map在資料夾裡面
+// 載入所有_.scss副檔 
+// 檔名中增加下底線代表不是最終用來編譯的檔案 一個分頁一個底線檔 要改的時候好找
+@import "rwd";
+@import "index";
+@import "bootstrap/bootstrap";
+// 就會同時全部一起編譯成一個檔案   
+// variable.scss檔案裡頭由上至下順序分別是 色系 option預設樣式 spacing間隔樣式 body link連結 breakpoint斷點

@@ -1,0 +1,97 @@
+ /*--------------------------------------------------------------
+  #rwd
+  --------------------------------------------------------------*/
+  @media (max-width:992px) {
+    #header>.container>h1{
+        font-size:80px;
+    }
+    #article0>.row{
+        width:100%;
+        text-align:center;
+        font-size:16px;
+    }
+    #article1>div{
+        width:50%;
+     
+    }
+    #article0image{
+        width:50%;
+    }
+    #article2>div>*,#article3>div>*{
+        width:100%;
+        // text-align:center;
+        // font-size:16px;
+    }    
+
+    #myTab>li{
+        width:33.33%;
+    }
+    #galleryImage1,#galleryImage2,#galleryImage3,#galleryImage4,#galleryImage5,#galleryImage6,#galleryImage7{
+        width:50%;
+       
+    }
+    #galleryImage9,#galleryImage10,#galleryImage12{
+        width:33.33%
+        // background-size:33.33%;
+
+    }
+  
+//     #webModal01,#webModal02,#webModal03,#webModal04,#webModal05,#webModal06,#webModal07,#webModal08,#webModal09,#webModal10,#webModal12{
+// width:800px;
+//     }
+.modal-body>img{
+    width:450px;
+}
+  
+    
+}
+@media (max-width:576px) {
+    #header>.container>h1{
+        font-size:60px;
+    }
+    #article0>.row{
+        width:100%;
+        text-align:center;
+        font-size:16px;
+    }
+    #article1>div{
+        width:50%;
+    }
+    #article0image{
+        width:50%;
+    }
+    #self>p{
+        display:none;
+        // width:50%;
+    }
+    #article2>div>*,#article3>div>*{
+        width:100%;
+        // text-align:center;
+        // font-size:16px;
+    }    
+
+    #myTab>li{
+        width:33.33%;
+    }
+    .intro-box>h3{
+        display:none;
+    }
+
+    #galleryImage1,#galleryImage2,#galleryImage3,#galleryImage4,#galleryImage5,#galleryImage6,#galleryImage7{
+        width:100%;
+    }
+    #galleryImage9,#galleryImage10,#galleryImage12{
+        width:100%
+        // background-size:33.33%;
+    }
+    .modal-body>img{
+        width:400px;
+    }
+  
+//     #webModal01,#webModal02,#webModal03,#webModal04,#webModal05,#webModal06,#webModal07,#webModal08,#webModal09,#webModal10,#webModal12{
+// width:800px;
+//     }
+
+
+
+}
